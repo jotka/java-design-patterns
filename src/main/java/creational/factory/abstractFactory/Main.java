@@ -11,6 +11,7 @@ public class Main {
     public static void main(String[] args) {
         GUIBuilder builder = new GUIBuilder();
         AbstractWidgetFactory widgetFactory;
+
         //check what platform we're on
         if (currentPlatform() == "MACOSX") {
             widgetFactory = new MacOSXWidgetFactory();
