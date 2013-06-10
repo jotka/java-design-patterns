@@ -1,5 +1,5 @@
-import creational.factory.factoryMethod2.ConcreteCreator;
-import creational.factory.factoryMethod2.Creator;
+import pl.finsys.creational.factory.factoryMethod2.ConcreteCreator;
+import pl.finsys.creational.factory.factoryMethod2.Creator;
 import org.testng.annotations.Test;
 
 import static org.fest.assertions.Assertions.assertThat;
