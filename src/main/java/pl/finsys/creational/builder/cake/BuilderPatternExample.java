@@ -1,4 +1,4 @@
-package creational.builder.cake;
+package pl.finsys.creational.builder.cake;
 
 /**
  * Created with IntelliJ IDEA.
