@@ -6,7 +6,7 @@ package pl.finsys.creational.factory.factoryMethod2;
  * Date: 03.05.13
  * Time: 11:14
  */
-public abstract class Creator extends ConcreteProduct {
+public abstract class Creator {
     public String anOperation(){
         Product product = factoryMethod();
         return product.getName();
