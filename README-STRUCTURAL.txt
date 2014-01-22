@@ -1,13 +1,19 @@
 Adapter
 -------
 Convert the interface of a class into another interface clients expect.
-/ Adapter lets classes work together, 
-that could not otherwise because of incompatible interfaces.
+Adapter lets classes work together, that could not otherwise because of incompatible interfaces.
+
+Adapter is used when you have an abstract interface, and you want to map that interface to another object
+which has similar functional role, but a different interface.
 
 
 Bridge
 ------
-Compose objects into tree structures to represent part-whole hierarchies. 
+Compose objects into tree structures to represent part-whole hierarchies.
+ is very similar to Adapter, but we call it Bridge when you define both the abstract interface
+ and the underlying implementation.
+ I.e. you're not adapting to some legacy or third-party code, you're the designer of all the code
+ but you need to be able to swap out different implementations.
 
 Composite
 ---------
@@ -18,7 +24,9 @@ compositions of objects uniformly.
 
 Decorator
 ---------
-add additional responsibilities dynamically to an object.
+Add additional responsibilities dynamically to an object.
+This is used when you want to add functionality to an object,
+but not by extending that object's type. This allows you to do so at runtime.
 
 
 Flyweight
