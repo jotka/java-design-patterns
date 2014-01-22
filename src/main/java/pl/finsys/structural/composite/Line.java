@@ -30,9 +30,7 @@ public class Line implements Shape {
      * this method must be implemented in this simple shape
      */
     public void renderShapeToScreen() {
-
-        // logic to render this shape to screen
-
+        System.out.println("Line: renderShapeToScreen");
     }
 
 }

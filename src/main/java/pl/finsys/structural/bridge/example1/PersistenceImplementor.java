@@ -1,4 +1,4 @@
-package pl.finsys.structural.bridge;
+package pl.finsys.structural.bridge.example1;
 
 public interface PersistenceImplementor {
     public long saveObject(Object object);

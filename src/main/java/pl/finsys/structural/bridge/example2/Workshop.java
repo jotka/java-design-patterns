@@ -1,4 +1,4 @@
-package structural.bridge;
+package pl.finsys.structural.bridge.example2;
 
 /**
  * Created with IntelliJ IDEA.

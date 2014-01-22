@@ -1,4 +1,4 @@
-package structural.bridge;
+package pl.finsys.structural.bridge.example2;
 
 /**
  * Created with IntelliJ IDEA.
@@ -6,12 +6,11 @@ package structural.bridge;
  * Date: 21.05.13
  * Time: 09:46
  */
-public class Produce implements Workshop {
+public class WorkshopAssemble implements Workshop {
 
     @Override
     public void work() {
-        System.out.print("Produced");
+        System.out.println(" Assembled.");
     }
 
 }
-

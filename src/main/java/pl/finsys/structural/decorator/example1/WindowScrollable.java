@@ -1,13 +1,13 @@
-package pl.finsys.structural.decorator;
+package pl.finsys.structural.decorator.example1;
 
-public class ScrollableWindow extends DecoratedWindow {
+public class WindowScrollable extends WindowDecorated {
 
     /**
      * Additional State
      */
     private Object scrollBarObjectRepresentation = null;
 
-    public ScrollableWindow(Window windowRefernce) {
+    public WindowScrollable(Window windowRefernce) {
 
         super(windowRefernce);
     }

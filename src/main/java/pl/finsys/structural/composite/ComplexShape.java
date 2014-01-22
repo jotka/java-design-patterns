@@ -29,7 +29,7 @@ public class ComplexShape implements Shape {
      * this method is handled with delegation
      */
     public void renderShapeToScreen() {
-
+        System.out.println("ComplexShape: renderShapeToScreen");
         for (Shape s : shapeList) {
 
             // use delegation to handle this method

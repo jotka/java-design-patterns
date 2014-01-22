@@ -1,11 +1,11 @@
-package pl.finsys.structural.decorator;
+package pl.finsys.structural.decorator.example1;
 
-public class GUIDriver {
+public class Main {
     public static void main(String[] args) {
 
         // create a new window
 
-        Window window = new SimpleWindow();
+        Window window = new WindowSimple();
 
         window.renderWindow();
 
@@ -14,7 +14,7 @@ public class GUIDriver {
         // thus the scrolling behavior must be added
 
         // decorate old window
-        window = new ScrollableWindow(window);
+        window = new WindowScrollable(window);
 
         // now window object
         // has additional behavior / state

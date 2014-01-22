@@ -3,7 +3,7 @@ package pl.finsys.structural.composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GraphicsEditor {
+public class Main {
     public static void main(String[] args) {
 
         List<Shape> allShapesInSoftware = new ArrayList<Shape>();

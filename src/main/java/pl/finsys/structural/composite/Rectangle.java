@@ -18,7 +18,7 @@ public class Rectangle implements Shape {
      * this method is implemented using delegation
      */
     public void renderShapeToScreen() {
-
+        System.out.println("Rectangle: renderShapeToScreen");
         for (Shape s : rectangleEdges) {
 
             // delegate to child objects
